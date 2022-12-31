@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Open+Sans&family=Zen+Dots&display=swap');
+
+@media(max-width: 768px) {
+  .search {
+    width: 55vw;
+  }
+}
+
+@media(max-width: 635px) {
+  .search {
+    width: 40vw;
+  }
+}
+
+@media(max-width: 460px) {
+  .home,
+  .menu {
+    display: none;
+  }
+  .search {
+    width: 45vw;
+  }
+}
+
+@media(max-width: 440px) {
+  .swiper {
+    transform: scale(0.8);
+  }
+}
+
+@media(max-width: 385px) {
+  .swiper {
+    transform: scale(0.6);
+  }
+}
+
+@media(max-width: 335px) {
+  .reload {
+    display: none;
+  }
+}
+
+@media(max-width: 250px) {
+  .browser-search {
+    display: none;
+  }
+}
+
+@media(max-width: 210px) {
+  .chrome-icon {
+    display: none;
+  }
+
+  .dots-container {
+    width: 100%;
+  }
+}
