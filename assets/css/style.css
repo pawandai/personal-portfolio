@@ -1,4 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Open+Sans&family=Zen+Dots&display=swap');
+/* VARIABLES */
+:root {
+  --primary-gradient: linear-gradient(to right, purple, pink);
+  --primary-gradient-reverse: linear-gradient(to right, pink, purple);
+  --primary-color: rgb(38, 38, 206);
+  --white: #f9fafb;
+  --dark-white: #c6c6c7;
+  --black: #333;
+  --dark-black: #000;
+}
 
 .browser-control {
   padding: 10px 10px;
@@ -120,6 +130,17 @@ img {
   transition: transform ease-in-out .3s;
 }
 
+.components {
+  opacity: 0;
+  transition: all ease-in-out .3s;
+}
+
+.components.active {
+  z-index: 1;
+  opacity: 1;
+  transition: all ease-in-out .3s;
+}
+
 .swiper-slide {
   display: flex;
   align-items: center;
@@ -155,4 +176,36 @@ img {
   font-size: 32px;
   text-align: center;
   margin-top: 20px;
+}
+
+
+/* PROFILE STYLING */
+
+.profile {
+  top: 0;
+}
+
+.card {
+  background: linear-gradient(to right, red, green);
+  font-family: 'Open Sans', sans-serif;
+  width: 50%;
+  gap: 20px;
+  border-radius: 10px;
+  padding: 15px 20px;
+  font-size: 18px;
+}
+
+.card p {
+  color: var(--white);
+}
+
+.profile-icons a {
+  color: var(--white);
+  font-size: 28px;
+  cursor: pointer;
+  transition: color ease-in-out .2s;
+}
+
+.profile-icons a:hover {
+  color: var(--dark-white);
 }
