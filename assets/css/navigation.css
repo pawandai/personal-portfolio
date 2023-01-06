@@ -1,2 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Open+Sans&family=Zen+Dots&display=swap');
-
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.navigation {
+  height: 90px;
+  width: 500px;
+  background-color: #f9fafb;
+  border-radius: 20px;
+}
+.nav {
+  height: 90px;
+  width: 400px;
+}
+.nav-list-items {
+  width: 100px;
+}

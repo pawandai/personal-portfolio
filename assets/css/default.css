@@ -25,6 +25,9 @@ body {
   overflow-x: hidden;
   width: 100vw;
   padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 hr {
@@ -38,6 +41,7 @@ hr {
   background-color: var(--dark-white);
   border-radius: 10px;
   transform: scale(1);
+  max-width: 1900px;
   transition: transform ease-in-out .3s;
 }
 
