@@ -189,6 +189,7 @@ img {
   background: linear-gradient(to right, red, green);
   font-family: 'Open Sans', sans-serif;
   width: 50%;
+  max-width: 530px;
   gap: 20px;
   border-radius: 10px;
   padding: 15px 20px;
@@ -209,3 +210,6 @@ img {
 .profile-icons a:hover {
   color: var(--dark-white);
 }
+
+
+/* NAVIGATION STYLING */

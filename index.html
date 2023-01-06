@@ -22,15 +22,17 @@
     <title>Pawan Awasthi</title>
   </head>
   <body>
-    <div class="container">
+    <div class="container" id="container">
       <div class="browser flex flex-column">
         <div class="browser-control relative">
           <div class="dots-container flex flex-space-around">
-            <div class="dots close"><i class="fa-solid fa-xmark"></i></div>
-            <div class="dots minimize">
+            <div class="dots close" id="close">
+              <i class="fa-solid fa-xmark"></i>
+            </div>
+            <div class="dots minimize" id="minimize">
               <i class="fa-solid fa-minimize"></i>
             </div>
-            <div class="dots maximize">
+            <div class="dots maximize" id="maximize">
               <i class="fa-solid fa-maximize"></i>
             </div>
           </div>
@@ -112,9 +114,7 @@
               </div>
             </div>
           </div>
-          <nav>
-            <div class="navigation-bar"></div>
-          </nav>
+          <nav></nav>
         </div>
       </div>
     </div>

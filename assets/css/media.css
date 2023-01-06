@@ -86,3 +86,12 @@
     row-gap: 10px;
   }
 }
+
+
+/* MAKING NAVIGATION BAR RESPONSIVE */
+
+@media(max-width: 470px) {
+  .nav-items {
+    width: 95vw;
+  }
+}

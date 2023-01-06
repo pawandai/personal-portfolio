@@ -37,6 +37,8 @@ hr {
   height: 100%;
   background-color: var(--dark-white);
   border-radius: 10px;
+  transform: scale(1);
+  transition: transform ease-in-out .3s;
 }
 
 em {
@@ -54,6 +56,7 @@ em {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 1.3em;
 }
+
 
 /* PROFILE PICTURE */
 .profile-pic {
@@ -87,7 +90,6 @@ em {
 }
 
 .btn-transparent {
-  border: 3px solid rgb(37, 37, 216);
   background: transparent;
   color: #333;
 }
