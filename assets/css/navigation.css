@@ -18,3 +18,30 @@ nav {
 .nav-list-items {
   width: 100px;
 }
+
+.text {
+  font-family: 'Open Sans', sans-serif;
+  color: #333;
+  font-weight: 500;
+  transform: translateY(170%) scale(0);
+  opacity: 0;
+  transition: all ease-in-out .3s;
+}
+
+.icon {
+  font-size: 24px;
+  color: #333;
+  transition: all ease-in-out .3s;
+}
+
+.icon.active {
+  transform: scale(1.8) translateY(-80%);
+  transition: all ease-in-out .3s;
+}
+
+.icon.active ~ .text {
+  transform: translateY(0) scale(1);
+  opacity: 1;
+  transition: all ease-in-out .3s;
+}
+
